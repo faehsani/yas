@@ -26,13 +26,12 @@
   padding: 0px;
   box-sizing: border-box;
   font-family: "iranyekan";
-  font-weight: normal;
+  direction: rtl;
+  text-align: right;
 }
 
-.main-menu {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+body {
+  font-size: 13px;
 }
 
 .footer-container {
@@ -40,17 +39,23 @@
 }
 
 .text-underline {
-  padding-bottom: 5px;
-  border-bottom-style: solid;
   width: fit-content;
-  border-color: #61a0ff;
+  padding-bottom: 8px;
+  position: relative;
+}
+.text-underline:after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  border-radius: 2px;
+  background: #61a0ff;
+  right: 0px;
+  bottom: 0px;
 }
 
 .contact-ul-style {
   list-style-type: none;
   padding-bottom: 10px;
-}
-
-li i {
-  margin-right: 10px;
 }
