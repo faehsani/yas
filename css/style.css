@@ -25,11 +25,10 @@ body {
   font-size: 13px;
 }
 
-.nav-justify {
-  justify-content: space-between;
-}
-.nav-justify span {
-  color: red;
+.navbar a {
+  text-decoration: none;
+  color: black;
+  margin-right: 3em;
 }
 
 /*# sourceMappingURL=style.css.map */
