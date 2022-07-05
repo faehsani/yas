@@ -34,28 +34,6 @@ body {
   font-size: 13px;
 }
 
-.footer-container {
-  background: #0062f5;
-}
-
-.text-underline {
-  width: fit-content;
-  padding-bottom: 8px;
-  position: relative;
-}
-.text-underline:after {
-  position: absolute;
-  content: "";
-  display: block;
-  width: 100%;
-  height: 3px;
-  border-radius: 2px;
-  background: #61a0ff;
-  right: 0px;
-  bottom: 0px;
-}
-
-.contact-ul-style {
-  list-style-type: none;
-  padding-bottom: 10px;
+.nav-justify {
+  justify-content: space-between;
 }
