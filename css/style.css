@@ -3,24 +3,15 @@
   font-style: normal;
   font-weight: bold;
   src: url("../fonts/iranyekan/eot/iranyekanwebboldfanum.eot");
-  src: url("../fonts/iranyekan/eot/iranyekanwebboldfanum.eot?#iefix")
-      format("embedded-opentype"),
-    url("../fonts/iranyekan/woff/iranyekanwebboldfanum.woff") format("woff"),
-    url("../fonts/iranyekan/ttf/iranyekanwebboldfanum.ttf") format("truetype");
+  src: url("../fonts/iranyekan/eot/iranyekanwebboldfanum.eot?#iefix") format("embedded-opentype"), url("../fonts/iranyekan/woff/iranyekanwebboldfanum.woff") format("woff"), url("../fonts/iranyekan/ttf/iranyekanwebboldfanum.ttf") format("truetype");
 }
-
 @font-face {
   font-family: "iranyekan";
   font-style: normal;
   font-weight: normal;
   src: url("../fonts/iranyekan/eot/iranyekanwebregularfanum.eot");
-  src: url("../fonts/iranyekan/eot/iranyekanwebregularfanum.eot?#iefix")
-      format("embedded-opentype"),
-    url("../fonts/iranyekan/woff/iranyekanwebregularfanum.woff") format("woff"),
-    url("../fonts/iranyekan/ttf/iranyekanwebregularfanum.ttf")
-      format("truetype");
+  src: url("../fonts/iranyekan/eot/iranyekanwebregularfanum.eot?#iefix") format("embedded-opentype"), url("../fonts/iranyekan/woff/iranyekanwebregularfanum.woff") format("woff"), url("../fonts/iranyekan/ttf/iranyekanwebregularfanum.ttf") format("truetype");
 }
-
 * {
   margin: 0px;
   padding: 0px;
@@ -37,3 +28,8 @@ body {
 .nav-justify {
   justify-content: space-between;
 }
+.nav-justify span {
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */
