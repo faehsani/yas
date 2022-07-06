@@ -1,5 +1,10 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M8.90002 7.56023C9.21002 3.96023 11.06 2.49023 15.11 2.49023H15.24C19.71 2.49023 21.5 4.28023 21.5 8.75023V15.2702C21.5 19.7402 19.71 21.5302 15.24 21.5302H15.11C11.09 21.5302 9.24002 20.0802 8.91002 16.5402" stroke="#0062F5" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M15 12H3.62" stroke="#0062F5" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M5.85 8.65039L2.5 12.0004L5.85 15.3504" stroke="#0062F5" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="body_1" width="23" height="23">
+
+<g transform="matrix(0.07986112 0 0 0.07986112 0 0)">
+	<g transform="matrix(12 0 0 12 0 0)">
+        <path d="M8.90002 7.56023C 9.21002 3.96023 11.06 2.49023 15.11 2.49023L15.11 2.49023L15.24 2.49023C 19.71 2.49023 21.5 4.28023 21.5 8.75023L21.5 8.75023L21.5 15.2702C 21.5 19.7402 19.71 21.5302 15.24 21.5302L15.24 21.5302L15.11 21.5302C 11.09 21.5302 9.24002 20.0802 8.91002 16.5402M15 12L3.62 12zM5.85 8.65039L2.5 12.0004L5.85 15.3504" stroke="#000000" stroke-width="1.25" stroke-linecap="square" fill="none" />
+	</g>
+</g>
 </svg>
