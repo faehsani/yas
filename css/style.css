@@ -28,6 +28,9 @@ body {
 .main-menu-ul {
   font-size: 12px;
 }
+.main-menu-ul .nav-item .active {
+  color: #0062f5;
+}
 .main-menu-ul .nav-item a {
   text-decoration: none;
   color: inherit;
