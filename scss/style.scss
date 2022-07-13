@@ -21,6 +21,8 @@
       format("truetype");
 }
 
+$main-blue-color: #0062f5;
+
 * {
   margin: 0px;
   padding: 0px;
@@ -32,17 +34,44 @@
 
 body {
   font-size: 13px;
+  background: #D8D8D8;
+}
+
+.menu-header{
+  background: #FBFBFB;
 }
 
 .main-menu-ul {
   font-size: 12px;
-
+ 
   .nav-item .active {
-    color: #0062f5;
+    color: $main-blue-color;
   }
   .nav-item a {
     text-decoration: none;
     color: inherit;
     margin-right: 3em;
   }
+}
+
+.category {
+  .nav-pills .nav-link{
+    color: black;
+  }
+  .nav-pills .nav-link.active{
+    background-color: transparent;
+    color:$main-blue-color;
+  }
+  .nav-item span {
+    display: block;
+    margin-top: 15px;
+    
+  }
+}
+
+
+.img-center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }

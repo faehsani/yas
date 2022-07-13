@@ -23,6 +23,11 @@
 
 body {
   font-size: 13px;
+  background: #D8D8D8;
+}
+
+.menu-header {
+  background: #FBFBFB;
 }
 
 .main-menu-ul {
@@ -35,6 +40,24 @@ body {
   text-decoration: none;
   color: inherit;
   margin-right: 3em;
+}
+
+.category .nav-pills .nav-link {
+  color: black;
+}
+.category .nav-pills .nav-link.active {
+  background-color: transparent;
+  color: #0062f5;
+}
+.category .nav-item span {
+  display: block;
+  margin-top: 15px;
+}
+
+.img-center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
