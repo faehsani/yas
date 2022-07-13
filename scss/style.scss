@@ -50,13 +50,24 @@ body {
   .nav-item a {
     text-decoration: none;
     color: inherit;
-    margin-right: 3em;
   }
 }
 
 .category {
+  position: relative;
+  z-index: 1;
+  background: white;
+  margin-top: -100px;
   .nav-pills .nav-link{
     color: black;
+    .img-icon{
+      width: 60px;
+      height: 60px;
+      img{
+        max-width: 100%;
+        height: auto;
+      }
+    }
   }
   .nav-pills .nav-link.active{
     background-color: transparent;
@@ -70,8 +81,4 @@ body {
 }
 
 
-.img-center {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-}
+

@@ -39,11 +39,24 @@ body {
 .main-menu-ul .nav-item a {
   text-decoration: none;
   color: inherit;
-  margin-right: 3em;
 }
 
+.category {
+  position: relative;
+  z-index: 1;
+  background: white;
+  margin-top: -100px;
+}
 .category .nav-pills .nav-link {
   color: black;
+}
+.category .nav-pills .nav-link .img-icon {
+  width: 60px;
+  height: 60px;
+}
+.category .nav-pills .nav-link .img-icon img {
+  max-width: 100%;
+  height: auto;
 }
 .category .nav-pills .nav-link.active {
   background-color: transparent;
@@ -52,12 +65,6 @@ body {
 .category .nav-item span {
   display: block;
   margin-top: 15px;
-}
-
-.img-center {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
