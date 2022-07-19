@@ -86,8 +86,8 @@
     <div class="category rounded">
         <ul class="nav nav-pills mb-3 justify-content-around align-items-center" id="pills-tab" role="tablist">
             <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
-                        type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                <button class="nav-link active" id="pills-airplane-tab" data-bs-toggle="pill" data-bs-target="#pills-airplane"
+                        type="button" role="tab" aria-controls="pills-airplane" aria-selected="true">
                   <span class="img-icon d-flex align-items-center justify-content-center m-auto">
                         <img
                                 src="images/airplane.svg"
@@ -100,8 +100,8 @@
 
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
-                        type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+                <button class="nav-link" id="pills-helicopter-tab" data-bs-toggle="pill" data-bs-target="#pills-helicopter"
+                        type="button" role="tab" aria-controls="pills-helicopter" aria-selected="false">
                         <span class="img-icon d-flex align-items-center justify-content-center m-auto">
                         <img
                             src="images/helicopter.svg"
@@ -113,8 +113,8 @@
                 </button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
-                        type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                <button class="nav-link" id="pills-stewardess-tab" data-bs-toggle="pill" data-bs-target="#pills-stewardess"
+                        type="button" role="tab" aria-controls="pills-stewardess" aria-selected="false">
                         <span class="img-icon d-flex align-items-center justify-content-center m-auto">
                       
                         <img
@@ -128,8 +128,8 @@
                 </button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
-                        type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                <button class="nav-link" id="pills-personnel-tab" data-bs-toggle="pill" data-bs-target="#pills-personnel"
+                        type="button" role="tab" aria-controls="pills-personnel" aria-selected="false">
                         <span class="img-icon d-flex align-items-center justify-content-center m-auto">
                       
                         <img
@@ -143,8 +143,8 @@
                 </button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
-                        type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                <button class="nav-link" id="pills-dispatcher-tab" data-bs-toggle="pill" data-bs-target="#pills-dispatcher"
+                        type="button" role="tab" aria-controls="pills-dispatcher" aria-selected="false">
                         <span class="img-icon d-flex align-items-center justify-content-center m-auto">
                       
                         <img
@@ -157,8 +157,8 @@
                 </button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
-                  type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                <button class="nav-link" id="pills-other-tab" data-bs-toggle="pill" data-bs-target="#pills-other"
+                  type="button" role="tab" aria-controls="pills-other" aria-selected="false">
                   <span class="img-icon d-flex align-items-center justify-content-center m-auto">
                       
                   <img
@@ -172,32 +172,59 @@
             </li>
         </ul>
         <div class="tab-content tab-content-border" id="pills-tabContent">
-            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+            <div class="tab-pane mx-5 p-5 fade show active" id="pills-airplane" role="tabpanel" aria-labelledby="pills-airplane-tab"
                  tabindex="0">
-                <div class="card" style="width: 18rem;">
-                    <img src="images/airplane-content.png" class="card-img-top" alt="هواپیما">
-                    <div class="card-body ">
-                        <h5 class="card-title">تایپ هواپیما امبرایر 145</h5>
-                        <p class="card-text"></p>
-                        <a href="#" class="btn btn-primary align-items-center">مشاهده دوره</a>
-                    </div>
+                <div class="contarner">
+                <div class="row">
+                    <div class="col">
+                    <div class="card card-style align-items-center" style="width: 18rem;">
+                        <img src="/images/airplane-content.png" class="card-img-top" alt="airplane">
+                        <div class="card-body">
+                          <h5 class="card-title">تایپ هواپیما امبرایر 145</h5>
+                          <div class="card-text">
+                <ul class="card-list">
+                    <li>
+                        <span class="img-icon align-items-center justify-content-center m-auto"> 
+                            <img src="images/note.svg" class="img-center" alt="نحوه برگزاری"/>
+                        </span>
+                        <span>نحوه برگزاری : غیرحضوری</span>
+                
+                    </li>
+                    <li>
+                        <span class="img-icon align-items-center justify-content-center m-auto"> 
+                            <img src="images/user-edit.svg" class="img-center" alt="مدرس دوره"/>
+                        </span>
+                        <span>مدرس دوره : علی حسینی</span>
+                    </li>
+                    <li>
+                        <span class="img-icon align-items-center justify-content-center m-auto"> 
+                            <img src="images/clock.svg" class="img-center" alt="ساعت برگزاری"/>
+                        </span>
+                        <span>مدت دوره : 600 ساعت</span>
+                    </li>
+                </ul>
+                        </div>
+                          <a href="#" class="btn btn-primary w-100">مشاهده دوره</a>
+                        </div>
+                      </div>
                 </div>
-
+                </div>
             </div>
-            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
-                 tabindex="0">!
             </div>
-            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
-                 tabindex="0">+
+            <div class="tab-pane fade" id="pills-helicopter" role="tabpanel" aria-labelledby="pills-helicopter-tab"
+                 tabindex="0">آموزش بالگرد
             </div>
-            <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab"
-                 tabindex="0">#
+            <div class="tab-pane fade" id="pills-stewardess" role="tabpanel" aria-labelledby="pills-stewardess-tab"
+                 tabindex="0">آموزش مهمانداری
             </div>
-            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
-                 tabindex="0">+
+            <div class="tab-pane fade" id="pills-personnel" role="tabpanel" aria-labelledby="pills-personnel-tab"
+                 tabindex="0">آموزش پرسنل فنی
             </div>
-            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
-                 tabindex="0">!
+            <div class="tab-pane fade" id="pills-dispatcher" role="tabpanel" aria-labelledby="pills-dispatcher-tab"
+                 tabindex="0">آموزش دیسپچری
+            </div>
+            <div class="tab-pane fade" id="pills-other" role="tabpanel" aria-labelledby="pills-other-tab"
+                 tabindex="0">آموزش متفرقه
             </div>
 
         </div>

@@ -73,18 +73,36 @@ body {
     background-color: transparent;
     color:$main-blue-color;
   }
+  .nav-pills .nav-link.active::after{
+  position: relative;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 5px;
+    left: 0;
+    bottom: -8px;
+    background-color: $main-blue-color;
+    border-radius: 4px 4px 0 0;
+  }
   .nav-item span {
     display: block;
-    margin-top: 15px;
+    margin-top: 5px;
     
   }
 }
 
+.tab-content{
+margin-top: -15px;
 .tab-content.tab-content-border{
-
-  border: 1px solid #D6E1FF ;
-
+  border: 1px solid #D6E1FF;
+}
 }
 
+.card-list{
+  list-style-type: none;
+}
 
-
+.card-style{
+  background: #F8F8F8;
+  border:1.5px solid #D6E1FF
+}
