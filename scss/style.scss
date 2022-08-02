@@ -157,3 +157,42 @@ border-radius: 5px;
   position:absolute;
   left: -6px;
 }
+
+.main-title-site{
+position: relative;
+width: 70%;
+ .col-sm-4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+p{
+  width: 78%;
+}
+a i{
+  position: relative;
+  top: 2px;
+  font-size: 14px;   
+}
+}
+
+.main-title-style{
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 900;
+ 
+}
+
+
+.circle-bg{
+  background-color:#E2EEFF;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  i{
+    font-size: 30px;
+  }
+}

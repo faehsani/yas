@@ -141,4 +141,47 @@ body {
   left: -6px;
 }
 
+.main-title-site {
+  position: relative;
+  width: 70%;
+}
+.main-title-site .col-sm-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.main-title-site p {
+  width: 78%;
+}
+.main-title-site a i {
+  position: relative;
+  top: 2px;
+  font-size: 14px;
+}
+
+.main-title-style {
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.circle-bg {
+  background-color: #E2EEFF;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+.circle-bg i {
+  font-size: 30px;
+}
+
+.news-article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*# sourceMappingURL=style.css.map */
