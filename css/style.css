@@ -188,6 +188,9 @@ body {
   right: auto;
   left: -30px;
 }
+.image-pattern img {
+  border-radius: 5px;
+}
 
 .read-more {
   text-decoration: none;
@@ -213,6 +216,29 @@ body {
   bottom: -6px;
   background-color: #0062f5;
   border-radius: 2px;
+}
+
+.latest-news-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.lastest-news-content a {
+  text-decoration: none;
+}
+
+.more-archive .span-archive {
+  font-size: 15px;
+}
+.more-archive i {
+  position: relative;
+  font-size: 13px;
+  top: 1px;
+}
+
+.gallery-slider-title {
+  font-size: 16px;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */

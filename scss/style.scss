@@ -206,6 +206,9 @@ a i{
   right: auto;
   left: -30px;
 }
+img{
+  border-radius: 5px;
+}
 }
 
 .read-more{
@@ -234,3 +237,29 @@ a i{
   border-radius: 2px;
 }
  
+.latest-news-title{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.lastest-news-content{
+  a{
+    text-decoration: none;
+  }
+}
+
+.more-archive{
+  .span-archive{
+    font-size: 15px;
+  }
+  i{
+    position: relative;
+    font-size: 13px;
+    top: 1px;
+  }
+}
+
+.gallery-slider-title{
+  font-size: 16px;
+  font-weight: bold;
+}
